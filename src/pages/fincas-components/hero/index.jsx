@@ -31,11 +31,12 @@ const Hero = () => {
                     Sustainable Solutions. Proven Results.
                   </h5>
                   <h1 className="vl-title text-anime-style-3">
-                    Procurement & Project Experts
+                    Global Procurement & Project Experts
                   </h1>
                   <p>
-                    Fincas Management Services Ltd. – Experts in Procurement &
-                    Project Services for Mining, Resources & Energy
+                    FINCAS Management Services Ltd. delivers expert Procurement,
+                    Contracts, Supply Chain, and Project Services for the
+                    Mining, Resources, and Energy sectors.
                   </p>
                   <div className="btn5">
                     <a href="/" className="btn-priamry1">

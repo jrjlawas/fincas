@@ -47,7 +47,7 @@ const Header = () => {
                         <a href="/">Our Services</a>
                       </li>
                       <li>
-                        <a href="/">About Us</a>
+                        <a href="/">Our Leader</a>
                       </li>
                       <li>
                         <a href="/">Contact Us</a>
@@ -111,7 +111,7 @@ const Header = () => {
               <a href="/">Our Services</a>
             </li>
             <li>
-              <a href="/">About Us</a>
+              <a href="/">Our Leader</a>
             </li>
             <li>
               <a href="/">Contact Us</a>
@@ -121,7 +121,7 @@ const Header = () => {
             <div className="mobile-btn5">
               <div className="btn5">
                 <Link to="/pages/contact" className="btn-priamry1">
-                  Donate Now{" "}
+                  Talk to Us{" "}
                   <span>
                     <FaArrowRight className="fa-solid fa-arrow-right"></FaArrowRight>
                   </span>
@@ -139,7 +139,7 @@ const Header = () => {
                     />
                   </div>
                   <div className="contact-info-text">
-                    <a href="tel:+3(924)4596512">+3(924)4596512</a>
+                    <a href="tel:+263787024225">+263787024225</a>
                   </div>
                 </div>
                 <div className="contact-info-single">
@@ -147,7 +147,9 @@ const Header = () => {
                     <FaEnvelope size={16} className="fa-solid fa-envelope" />
                   </div>
                   <div className="contact-info-text">
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a href="mailto:stevenc05185@gmail.com">
+                      stevenc05185@gmail.com
+                    </a>
                   </div>
                 </div>
                 <div className="contact-info-single">
@@ -160,9 +162,8 @@ const Header = () => {
                     />
                   </div>
                   <div className="contact-info-text">
-                    <a href="mailto:info@example.com">
-                      55 East Birchwood Ave.Brooklyn, <br /> New York
-                      11201,United States
+                    <a href="mailto:stevenc05185@gmail.com">
+                      Isabel, Leyte Philippines
                     </a>
                   </div>
                 </div>
@@ -173,12 +174,13 @@ const Header = () => {
                       <li>
                         <a
                           className="d-flex align-items-center justify-content-center"
-                          href="#"
+                          href="https://www.linkedin.com/company/fincas-business-services-ltd/"
+                          target="_"
                         >
-                          <FaFacebookF className="fa-brands fa-facebook-f" />
+                          <FaLinkedinIn className="fa-brands fa-facebook-f" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a
                           className="d-flex align-items-center justify-content-center"
                           href="#"
@@ -201,7 +203,7 @@ const Header = () => {
                         >
                           <FaYoutube className="fa-brands fa-youtube" />
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

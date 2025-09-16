@@ -1,12 +1,7 @@
-import footerLogo from "@/assets/img/logo/vl-footer-logo-1.1.png";
+import footerLogo from "@/assets/img/Fincas/footer/logoBlack.svg";
 import footerIc1 from "@/assets/img/icons/vl-footer-ic-1.1.svg";
 import footerIc2 from "@/assets/img/icons/vl-footer-ic-1.2.svg";
 import footerIc3 from "@/assets/img/icons/vl-footer-2.1.svg";
-
-import { FaFacebookF } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router";
 import { Col, Container, Row } from "react-bootstrap";
@@ -40,30 +35,6 @@ const Footer = () => {
                       <FaLinkedinIn className="fa-brands fa-facebook-f" />
                     </a>
                   </li>
-                  {/* <li>
-                    <a
-                      className="d-flex align-items-center justify-content-center"
-                      href="#"
-                    >
-                      <FaInstagram className="fa-brands fa-instagram" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="d-flex align-items-center justify-content-center"
-                      href="#"
-                    >
-                      <FaTwitter className="fa-brands fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="d-flex align-items-center justify-content-center"
-                      href="#"
-                    >
-                      <FaGithub className="fa-brands fa-github" />
-                    </a>
-                  </li> */}
                 </ul>
               </div>
             </div>
@@ -86,16 +57,22 @@ const Footer = () => {
               <div className="vl-footer-menu">
                 <ul>
                   <li>
-                    <a href="#">Procurement & Supply Chain</a>
+                    <a href="#">Strategy & Optimization</a>
                   </li>
                   <li>
-                    <a href="#">Negotiation & Training</a>
+                    <a href="#">Procurement Excellence</a>
                   </li>
                   <li>
-                    <Link to="#">Policy & Process Development</Link>
+                    <Link to="#">Contractor & Asset Solutions</Link>
                   </li>
                   <li>
-                    <a href="#">Organization Strategy</a>
+                    <a href="#">Leadership & Training</a>
+                  </li>
+                  <li>
+                    <a href="#">Organizational Design</a>
+                  </li>
+                  <li>
+                    <a href="#">Outsourced Services</a>
                   </li>
                 </ul>
               </div>
