@@ -28,7 +28,7 @@ const Hero = () => {
               <Col lg={8}>
                 <div className="vl-hero-section-title">
                   <h5 className="vl-subtitle">
-                    Sustainable Solutions. Proven Results.
+                    Sustainable Solutions, Value Realization
                   </h5>
                   <h1 className="vl-title text-anime-style-3">
                     Global Procurement & Project Experts
