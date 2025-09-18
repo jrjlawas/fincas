@@ -89,7 +89,7 @@ const Footer = () => {
                 </div>
                 <div className="vl-footer-text">
                   <a href="mailto:support@charity.com">
-                    stevenc05185@gmail.com
+                    info@fincasmanagement.com
                   </a>
                 </div>
               </div>

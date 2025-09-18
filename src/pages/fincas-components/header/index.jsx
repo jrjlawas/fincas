@@ -147,8 +147,8 @@ const Header = () => {
                     <FaEnvelope size={16} className="fa-solid fa-envelope" />
                   </div>
                   <div className="contact-info-text">
-                    <a href="mailto:stevenc05185@gmail.com">
-                      stevenc05185@gmail.com
+                    <a href="mailto:info@fincasmanagement.com">
+                      info@fincasmanagement.com
                     </a>
                   </div>
                 </div>
@@ -162,7 +162,7 @@ const Header = () => {
                     />
                   </div>
                   <div className="contact-info-text">
-                    <a href="mailto:stevenc05185@gmail.com">
+                    <a href="mailto:info@fincasmanagement.com">
                       Isabel, Leyte Philippines
                     </a>
                   </div>

@@ -23,8 +23,8 @@ const TopBanner = () => {
                   </span>
                 </div>
                 <div className="top-content">
-                  <a href="mailto:stevenc05185@gmail.com">
-                    stevenc05185@gmail.com
+                  <a href="mailto:info@fincasmanagement.com">
+                    info@fincasmanagement.com
                   </a>
                 </div>
               </div>
