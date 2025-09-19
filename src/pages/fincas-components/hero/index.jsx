@@ -39,7 +39,7 @@ const Hero = () => {
                     Mining, Resources, and Energy sectors.
                   </p>
                   <div className="btn5">
-                    <a href="/" className="btn-priamry1">
+                    <a href="/contact" className="btn-priamry1">
                       Talk to Us{" "}
                       <span>
                         <FaArrowRight />

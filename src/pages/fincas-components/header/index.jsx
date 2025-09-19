@@ -50,13 +50,13 @@ const Header = () => {
                         <a href="/">Our Leader</a>
                       </li>
                       <li>
-                        <a href="/">Contact Us</a>
+                        <a href="/contact">Contact Us</a>
                       </li>
                     </ul>
                   </div>
                   <div className="btn-area">
                     <div className="btn5">
-                      <Link to="/" className="btn-priamry1">
+                      <Link to="/contact" className="btn-priamry1">
                         Talk to Us{" "}
                         <span>
                           <FaArrowRight />
@@ -114,13 +114,13 @@ const Header = () => {
               <a href="/">Our Leader</a>
             </li>
             <li>
-              <a href="/">Contact Us</a>
+              <a href="/contact">Contact Us</a>
             </li>
           </ul>
           <div className="allmobilesection">
             <div className="mobile-btn5">
               <div className="btn5">
-                <Link to="/pages/contact" className="btn-priamry1">
+                <Link to="/contact" className="btn-priamry1">
                   Talk to Us{" "}
                   <span>
                     <FaArrowRight className="fa-solid fa-arrow-right"></FaArrowRight>

@@ -115,7 +115,7 @@ const About = () => {
                 data-aos-duration={1100}
                 data-aos-delay={300}
               >
-                <Link to="#" className="header-btn1">
+                <Link to="/contact" className="header-btn1">
                   Learn More{" "}
                   <span>
                     <FaArrowRight />
