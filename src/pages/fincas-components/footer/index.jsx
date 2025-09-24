@@ -1,4 +1,4 @@
-import footerLogo from "@/assets/img/Fincas/footer/logoBlack.svg";
+import footerLogo from "@/assets/img/Fincas/fincasLogo150.png";
 import footerIc1 from "@/assets/img/icons/vl-footer-ic-1.1.svg";
 import footerIc2 from "@/assets/img/icons/vl-footer-ic-1.2.svg";
 import footerIc3 from "@/assets/img/icons/vl-footer-2.1.svg";

@@ -1,4 +1,4 @@
-import logo5 from "@/assets/img/Fincas/120x40.png";
+import logo5 from "@/assets/img/Fincas/fincasLogo150.png";
 import useScrollEvent from "@/hooks/useScrollEvent";
 import { Link } from "react-router";
 import {
