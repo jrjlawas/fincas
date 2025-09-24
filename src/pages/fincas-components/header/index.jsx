@@ -12,6 +12,7 @@ import {
   FaPhoneVolume,
   FaXmark,
   FaYoutube,
+  FaAngleDown,
 } from "react-icons/fa6";
 import useToggle from "@/hooks/useToggle";
 import { Col, Container, Row } from "react-bootstrap";
@@ -41,13 +42,33 @@ const Header = () => {
                   <div className="main-menu main-menu-5">
                     <ul>
                       <li>
-                        <a href="/">Home</a>
+                        <a href="#">
+                          Home{" "}
+                          <FaAngleDown className="fa-solid fa-angle-down align-bottom" />
+                        </a>
+                        <ul className="dropdown-padding">
+                          <li>
+                            <Link to="/">Vision & Strategy</Link>
+                          </li>
+                          <li>
+                            <Link to="/">Leader</Link>
+                          </li>
+                          <li>
+                            <Link to="/">Consultants</Link>
+                          </li>
+                          <li>
+                            <Link to="/">Testimonials</Link>
+                          </li>
+                          <li>
+                            <Link to="/">Partners</Link>
+                          </li>
+                        </ul>
                       </li>
                       <li>
                         <a href="/">Our Services</a>
                       </li>
                       <li>
-                        <a href="/">Our Leader</a>
+                        <a href="/">Articles</a>
                       </li>
                       <li>
                         <a href="/contact">Contact Us</a>
@@ -105,13 +126,33 @@ const Header = () => {
         <div className="mobile-nav mobile-nav1">
           <ul className="mobile-nav-list nav-list1">
             <li>
-              <a href="/">Home</a>
+              <a href="#">
+                Home{" "}
+                <FaAngleDown className="fa-solid fa-angle-down align-bottom" />
+              </a>
+              <ul className="dropdown-padding">
+                <li>
+                  <Link to="/">Vision & Strategy</Link>
+                </li>
+                <li>
+                  <Link to="/">Leader</Link>
+                </li>
+                <li>
+                  <Link to="/">Consultants</Link>
+                </li>
+                <li>
+                  <Link to="/">Testimonials</Link>
+                </li>
+                <li>
+                  <Link to="/">Partners</Link>
+                </li>
+              </ul>
             </li>
             <li>
               <a href="/">Our Services</a>
             </li>
             <li>
-              <a href="/">Our Leader</a>
+              <a href="/">Articles</a>
             </li>
             <li>
               <a href="/contact">Contact Us</a>

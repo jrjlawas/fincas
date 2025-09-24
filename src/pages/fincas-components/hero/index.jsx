@@ -25,13 +25,13 @@ const Hero = () => {
         <div className="vl-hero-slider vl-hero-bg slick-slide slick-current slick-active">
           <Container>
             <Row>
-              <Col lg={8}>
+              <Col lg={9}>
                 <div className="vl-hero-section-title">
                   <h5 className="vl-subtitle">
                     Sustainable Solutions, Value Realization
                   </h5>
                   <h1 className="vl-title text-anime-style-3">
-                    Global Procurement & Project Experts
+                    Global Procurement, Supply Chain & Project Experts
                   </h1>
                   <p>
                     FINCAS Management Services Ltd. delivers expert Procurement,

@@ -94,7 +94,16 @@ const Contact = () => {
     <section className="vl-contact-section-inner sp2">
       <Container>
         <Row className=" flex-lg-row flex-column-reverse">
-          <Col lg={6} className="mb-30">
+          <Col lg={3} className="mb-30">
+            <div className="vl-maps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13144.459118636094!2d-113.95801057573186!3d51.06571323917659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717b349bf4e189%3A0x21bf5a0a84399556!2sMarbank%20Dr%20NE%2C%20Calgary%2C%20AB%2C%20Canada!5e1!3m2!1sen!2sph!4v1756648491880!5m2!1sen!2sph"
+                allowFullScreen
+                className="vl-contact-maps"
+              />
+            </div>
+          </Col>
+          <Col lg={3} className="mb-30">
             <div className="vl-maps">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13144.459118636094!2d-113.95801057573186!3d51.06571323917659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717b349bf4e189%3A0x21bf5a0a84399556!2sMarbank%20Dr%20NE%2C%20Calgary%2C%20AB%2C%20Canada!5e1!3m2!1sen!2sph!4v1756648491880!5m2!1sen!2sph"
