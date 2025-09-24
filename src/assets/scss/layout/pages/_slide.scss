@@ -8155,6 +8155,20 @@ section.vl-testimonial4.vl-testimonial-inner.testimonial2.sp2 .smarrow.abarow.ar
   z-index: 1;
   overflow: hidden;
 }
+@media (max-width: 768px) {
+  .vl-hero-bg {
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // background-color: #ddd;
+  background: url('/src/assets/img/Fincas/home/FincasHeroMobile.gif') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  }
+}
 .vl-hero-bg:after {
   position: absolute;
   content: "";
