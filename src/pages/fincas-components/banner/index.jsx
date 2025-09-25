@@ -35,7 +35,7 @@ const TopBanner = () => {
                   </span>
                 </div>
                 <div className="top-content">
-                  <a href="tel:+263787024225">+263787024225</a>
+                  <a href="tel:+639190990670">+63 919 099 0670</a>
                 </div>
               </div>
             </div>

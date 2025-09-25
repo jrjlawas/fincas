@@ -35,8 +35,8 @@ const Hero = () => {
                   </h1>
                   <p>
                     FINCAS Management Services Ltd. delivers expert Procurement,
-                    Contracts, Supply Chain, and Project Services for the
-                    Mining, Resources, and Energy sectors.
+                    Contracts, <br />
+                    Supply Chain, and Project Services.
                   </p>
                   <div className="btn5">
                     <a href="/contact" className="btn-priamry1">

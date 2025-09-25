@@ -94,10 +94,19 @@ const Contact = () => {
     <section className="vl-contact-section-inner sp2">
       <Container>
         <Row className=" flex-lg-row flex-column-reverse">
-          <Col lg={6} className="mb-30">
+          <Col lg={3} className="mb-30">
             <div className="vl-maps">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13144.459118636094!2d-113.95801057573186!3d51.06571323917659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717b349bf4e189%3A0x21bf5a0a84399556!2sMarbank%20Dr%20NE%2C%20Calgary%2C%20AB%2C%20Canada!5e1!3m2!1sen!2sph!4v1756648491880!5m2!1sen!2sph"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56975.34298836436!2d153.08164663184832!3d-26.809436100000017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9399428530e433%3A0x89b36727186d1a8e!2s139%20The%20Esplanade%2C%20Golden%20Beach%20QLD%204551%2C%20Australia!5e0!3m2!1sen!2sph!4v1758776551524!5m2!1sen!2sph"
+                allowFullScreen
+                className="vl-contact-maps"
+              />
+            </div>
+          </Col>
+          <Col lg={3} className="mb-30">
+            <div className="vl-maps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15200.14503840576!2d31.11438125!3d-17.742930599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931b05b560a678b%3A0xf7f36d2c94f7cd3a!2sGreystone%20Park%2C%20Harare%2C%20Zimbabwe!5e0!3m2!1sen!2sph!4v1758776628926!5m2!1sen!2sph"
                 allowFullScreen
                 className="vl-contact-maps"
               />

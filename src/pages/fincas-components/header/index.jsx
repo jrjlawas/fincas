@@ -128,9 +128,9 @@ const Header = () => {
             <li>
               <a href="#">
                 Home{" "}
-                <FaAngleDown className="fa-solid fa-angle-down align-bottom" />
+                {/* <FaAngleDown className="fa-solid fa-angle-down align-bottom" /> */}
               </a>
-              <ul className="dropdown-padding">
+              {/* <ul className="dropdown-padding">
                 <li>
                   <Link to="/">Vision & Strategy</Link>
                 </li>
@@ -146,7 +146,7 @@ const Header = () => {
                 <li>
                   <Link to="/">Partners</Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li>
               <a href="/">Our Services</a>
@@ -180,7 +180,7 @@ const Header = () => {
                     />
                   </div>
                   <div className="contact-info-text">
-                    <a href="tel:+263787024225">+263787024225</a>
+                    <a href="tel:+639190990670">+63 919 099 0670</a>
                   </div>
                 </div>
                 <div className="contact-info-single">
@@ -204,7 +204,22 @@ const Header = () => {
                   </div>
                   <div className="contact-info-text">
                     <a href="mailto:info@fincasmanagement.com">
-                      Isabel, Leyte Philippines
+                      139 The Esplanade, Golden Beach, Australia
+                    </a>
+                  </div>
+                </div>
+                <div className="contact-info-single">
+                  <div className="contact-info-icon">
+                    <FaLocationDot
+                      size={16}
+                      width={16}
+                      height={16}
+                      className="fa-solid fa-location-dot"
+                    />
+                  </div>
+                  <div className="contact-info-text">
+                    <a href="mailto:info@fincasmanagement.com">
+                      Greystone Park, Harare, Zimbabwe
                     </a>
                   </div>
                 </div>

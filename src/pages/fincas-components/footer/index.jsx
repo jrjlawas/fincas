@@ -20,8 +20,9 @@ const Footer = () => {
               <div className="vl-footer-content">
                 <p>
                   Since 2020, FINCAS has provided Procurement, Supply Chain, and
-                  Project Services to Mining, Resources, and Energy industries,
-                  powered by leaders with 10+ years’ experience.
+                  Project Services to Mining, Resources, Chemical, Construction
+                  and Energy industries, powered by leaders with 10+ years’
+                  experience.
                 </p>
               </div>
               <div className="vl-footer-social-1">
@@ -47,6 +48,12 @@ const Footer = () => {
                   <li>
                     <Link to="/">Talk to Us</Link>
                   </li>
+                  <li>
+                    <Link to="/">Articles</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">Contact Us</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -57,22 +64,28 @@ const Footer = () => {
               <div className="vl-footer-menu">
                 <ul>
                   <li>
-                    <a href="#">Strategy & Optimization</a>
+                    <a href="#">Procurement & Business Strategy</a>
                   </li>
                   <li>
-                    <a href="#">Procurement Excellence</a>
+                    <a href="#">Negotiation Strategy & Training</a>
                   </li>
                   <li>
-                    <Link to="#">Contractor & Asset Solutions</Link>
+                    <Link to="#">Contractor Management Solution</Link>
                   </li>
                   <li>
-                    <a href="#">Leadership & Training</a>
+                    <a href="#">Interim Leadership Services</a>
                   </li>
                   <li>
-                    <a href="#">Organizational Design</a>
+                    <a href="#">Organizational Design Development</a>
                   </li>
                   <li>
-                    <a href="#">Outsourced Services</a>
+                    <a href="#">Outsourced Procurement Services</a>
+                  </li>
+                  <li>
+                    <a href="#">Targeted Expat Headhunter</a>
+                  </li>
+                  <li>
+                    <a href="#">E2E Procurement & Supply Chain Training</a>
                   </li>
                 </ul>
               </div>
@@ -100,7 +113,17 @@ const Footer = () => {
                   </span>
                 </div>
                 <div className="vl-footer-text">
-                  <a href="#">Isabel, Leyte Philippines</a>
+                  <a href="#">139 The Esplanade, Golden Beach, Australia</a>
+                </div>
+              </div>
+              <div className="vl-footer-icon-list">
+                <div className="vl-footer-icon">
+                  <span>
+                    <img src={footerIc2} alt="footerIc2" />
+                  </span>
+                </div>
+                <div className="vl-footer-text">
+                  <a href="#">Greystone Park, Harare, Zimbabwe</a>
                 </div>
               </div>
               <div className="vl-footer-icon-list">
@@ -110,7 +133,7 @@ const Footer = () => {
                   </span>
                 </div>
                 <div className="vl-footer-text">
-                  <a href="tel:+263787024225">+263787024225</a>
+                  <a href="tel:+639190990670">+63 919 099 0670</a>
                 </div>
               </div>
             </div>
