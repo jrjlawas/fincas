@@ -68,7 +68,7 @@ const Header = () => {
                         <a href="/">Our Services</a>
                       </li>
                       <li>
-                        <a href="/">Articles</a>
+                        <a href="/articles">Articles</a>
                       </li>
                       <li>
                         <a href="/contact">Contact Us</a>
@@ -152,7 +152,7 @@ const Header = () => {
               <a href="/">Our Services</a>
             </li>
             <li>
-              <a href="/">Articles</a>
+              <a href="/articles">Articles</a>
             </li>
             <li>
               <a href="/contact">Contact Us</a>

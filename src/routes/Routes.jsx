@@ -2,6 +2,7 @@ import { lazy } from "react";
 
 const Home = lazy(() => import("@/pages/fincas-page/home"));
 const FincasHome = lazy(() => import("@/pages/fincas-page/contact"));
+const FincasArticles = lazy(() => import("@/pages/fincas-page/articles"));
 
 const MultiPageAnimalRescue = lazy(() =>
   import("@/pages/multi-page/animal-rescue")
@@ -52,6 +53,11 @@ const multiPageRoutes = [
     path: "/contact",
     name: "contact",
     element: <FincasHome />,
+  },
+  {
+    path: "/articles",
+    name: "articles",
+    element: <FincasArticles />,
   },
   {
     path: "/multi-page/animal-rescue",

@@ -99,9 +99,9 @@ const About = () => {
                   </span>
                 </Link>
               </div> */}
-              <div className="vl-about-sm-thumb d-none d-md-block">
+              {/* <div className="vl-about-sm-thumb d-none d-md-block">
                 <img className="w-100" src={about2} alt="about2" />
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>
