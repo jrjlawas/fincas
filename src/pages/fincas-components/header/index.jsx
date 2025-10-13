@@ -65,7 +65,20 @@ const Header = () => {
                         </ul>
                       </li>
                       <li>
-                        <a href="/">Our Services</a>
+                        <a href="#">
+                          Our Services{" "}
+                          <FaAngleDown className="fa-solid fa-angle-down align-bottom" />
+                        </a>
+                        <ul className="dropdown-padding">
+                          <li>
+                            <Link to="/services/procurement-and-business-strategy">
+                              Procurement & Business Strategy
+                            </Link>
+                          </li>
+                          {/* <li>
+                            <Link to="/">Negotiation Strategy & Training</Link>
+                          </li> */}
+                        </ul>
                       </li>
                       <li>
                         <a href="/articles">Articles</a>
@@ -149,7 +162,9 @@ const Header = () => {
               </ul> */}
             </li>
             <li>
-              <a href="/">Our Services</a>
+              <a href="/services/procurement-and-business-strategy">
+                Procurement & Business Strategy
+              </a>
             </li>
             <li>
               <a href="/articles">Articles</a>

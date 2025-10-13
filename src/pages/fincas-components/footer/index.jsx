@@ -64,7 +64,9 @@ const Footer = () => {
               <div className="vl-footer-menu">
                 <ul>
                   <li>
-                    <a href="#">Procurement & Business Strategy</a>
+                    <a href="/services/procurement-and-business-strategy">
+                      Procurement & Business Strategy
+                    </a>
                   </li>
                   <li>
                     <a href="#">Negotiation Strategy & Training</a>

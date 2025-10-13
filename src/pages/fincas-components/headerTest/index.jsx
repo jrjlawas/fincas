@@ -1,0 +1,96 @@
+// import logo1Img from "@/assets/img/logo/vl-logo-1.1.png";
+// import logo5 from "@/assets/img/Fincas/fincasLogo150.png";
+import logo1Img from "@/assets/img/Fincas/fincasLogo150.png";
+import useScrollEvent from "@/hooks/useScrollEvent";
+import { Link } from "react-router";
+import SingleMobileMenu from "./SingleMobileMenu";
+import {
+  FaArrowRight,
+  FaBars,
+  FaEnvelope,
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaLocationDot,
+  FaPhoneVolume,
+  FaXmark,
+  FaYoutube,
+  FaAngleDown,
+} from "react-icons/fa6";
+import { Col, Container, Row } from "react-bootstrap";
+
+const Header = () => {
+  const { scrollY } = useScrollEvent();
+  return (
+    <>
+      <header>
+        <div
+          className={`header-area homepage1 header header-sticky d-none d-lg-block mt-16 ${
+            scrollY > 100 && "sticky"
+          }`}
+          id="header"
+        >
+          <Container>
+            <Row>
+              <Col lg={12}>
+                <div className="header-elements header-elements-1">
+                  <div className="site-logo">
+                    <Link to="/">
+                      <img src={logo1Img} alt="logo1Img" />
+                    </Link>
+                  </div>
+                  <div className="main-menu">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          Home{" "}
+                          <FaAngleDown className="fa-solid fa-angle-down align-bottom" />
+                        </a>
+                        <ul className="dropdown-padding">
+                          <li>
+                            <Link to="/">Vision & Strategy</Link>
+                          </li>
+                          <li>
+                            <Link to="/">Leader</Link>
+                          </li>
+                          <li>
+                            <Link to="/">Consultants</Link>
+                          </li>
+                          <li>
+                            <Link to="/">Testimonials</Link>
+                          </li>
+                          <li>
+                            <Link to="/">Partners</Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="/">Our Services</a>
+                      </li>
+                      <li>
+                        <a href="/articles">Articles</a>
+                      </li>
+                      <li>
+                        <a href="/contact">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="btn-area">
+                    <Link to="/contact" className="header-btn1">
+                      Talk to Us{" "}
+                      <span>
+                        <FaArrowRight />
+                      </span>
+                    </Link>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </header>
+      <SingleMobileMenu />
+    </>
+  );
+};
+export default Header;

@@ -43,10 +43,10 @@
             transform: scaleX(0);
         }
         &:hover{
-            color: var(--ztc-text-text-1);
+            color: var(--ztc-text-text-A1);
             transition: .3s;
             & span{
-                color: var(--ztc-text-text-2);
+                color: var(--ztc-text-text-B1);
             }
             &:after {
                 transform: scaleX(1);
