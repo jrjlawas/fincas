@@ -29,7 +29,7 @@ const Blog = () => {
                 <div className="vl-meta">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href={item.link} target="_">
                         <span className="top-minus">
                           {" "}
                           <img src={calender1} alt="calender1" />

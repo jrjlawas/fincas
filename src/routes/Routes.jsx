@@ -15,6 +15,15 @@ const ServiceContractor = lazy(() =>
 const ServiceLeadership = lazy(() =>
   import("@/pages/fincas-page/serviceLeadership")
 );
+const ServiceOrganization = lazy(() =>
+  import("@/pages/fincas-page/serviceOrganization")
+);
+const ServiceOutsource = lazy(() =>
+  import("@/pages/fincas-page/serviceOutsource")
+);
+const ServiceExpat = lazy(() => import("@/pages/fincas-page/serviceExpat"));
+
+const ServiceSupply = lazy(() => import("@/pages/fincas-page/serviceSupply"));
 
 const MultiPageAnimalRescue = lazy(() =>
   import("@/pages/multi-page/animal-rescue")
@@ -91,6 +100,27 @@ const multiPageRoutes = [
     name: "Leadership",
     element: <ServiceLeadership />,
   },
+  {
+    path: "/services/orgranizational-design-development",
+    name: "Organization",
+    element: <ServiceOrganization />,
+  },
+  {
+    path: "/services/outsourced-procurement-services",
+    name: "Outsource",
+    element: <ServiceOutsource />,
+  },
+  {
+    path: "/services/targeted-expat-headhunter",
+    name: "Expat",
+    element: <ServiceExpat />,
+  },
+  {
+    path: "/services/e2e-procurement-supplychain-training",
+    name: "Expat",
+    element: <ServiceSupply />,
+  },
+
   {
     path: "/multi-page/animal-rescue",
     name: "multi-page-animal-rescue",

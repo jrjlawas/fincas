@@ -90,6 +90,26 @@ const Header = () => {
                               Interim Leadership Services
                             </Link>
                           </li>
+                          <li>
+                            <Link to="/services/orgranizational-design-development">
+                              Organizational Design Development
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/services/outsourced-procurement-services">
+                              Outsourced Procurement Services
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/services/targeted-expat-headhunter">
+                              Targeted Expat Headhunter
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/services/e2e-procurement-supplychain-training">
+                              E2E Procurement & Supply Chain Training
+                            </Link>
+                          </li>
                         </ul>
                       </li>
                       <li>
@@ -191,6 +211,26 @@ const Header = () => {
             <li>
               <a href="/services/interim-leadership-services">
                 Interim Leadership Services
+              </a>
+            </li>
+            <li>
+              <a href="/services/orgranizational-design-development">
+                Organizational Design Development
+              </a>
+            </li>
+            <li>
+              <a href="/services/outsourced-procurement-services">
+                Outsourced Procurement Services
+              </a>
+            </li>
+            <li>
+              <a href="/services/targeted-expat-headhunter">
+                Targeted Expat Headhunter
+              </a>
+            </li>
+            <li>
+              <a href="/services/e2e-procurement-supplychain-training">
+                E2E Procurement & Supply Chain Training
               </a>
             </li>
 

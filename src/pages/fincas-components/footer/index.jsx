@@ -84,16 +84,24 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#">Organizational Design Development</a>
+                    <a href="/services/orgranizational-design-development">
+                      Organizational Design Development
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Outsourced Procurement Services</a>
+                    <a href="/services/outsourced-procurement-services">
+                      Outsourced Procurement Services
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Targeted Expat Headhunter</a>
+                    <a href="/services/targeted-expat-headhunter">
+                      Targeted Expat Headhunter
+                    </a>
                   </li>
                   <li>
-                    <a href="#">E2E Procurement & Supply Chain Training</a>
+                    <a href="/services/e2e-procurement-supplychain-training">
+                      E2E Procurement & Supply Chain Training
+                    </a>
                   </li>
                 </ul>
               </div>
