@@ -6,6 +6,15 @@ const FincasArticles = lazy(() => import("@/pages/fincas-page/articles"));
 const ServiceProcurement = lazy(() =>
   import("@/pages/fincas-page/serviceProcurement")
 );
+const ServiceNegotiate = lazy(() =>
+  import("@/pages/fincas-page/serviceNegotiate")
+);
+const ServiceContractor = lazy(() =>
+  import("@/pages/fincas-page/serviceContractor")
+);
+const ServiceLeadership = lazy(() =>
+  import("@/pages/fincas-page/serviceLeadership")
+);
 
 const MultiPageAnimalRescue = lazy(() =>
   import("@/pages/multi-page/animal-rescue")
@@ -66,6 +75,21 @@ const multiPageRoutes = [
     path: "/services/procurement-and-business-strategy",
     name: "Procurement",
     element: <ServiceProcurement />,
+  },
+  {
+    path: "/services/negotiation-strategy-and-training",
+    name: "Negotiate",
+    element: <ServiceNegotiate />,
+  },
+  {
+    path: "/services/contractor-management-solution",
+    name: "Contractor",
+    element: <ServiceContractor />,
+  },
+  {
+    path: "/services/interim-leadership-services",
+    name: "Leadership",
+    element: <ServiceLeadership />,
   },
   {
     path: "/multi-page/animal-rescue",

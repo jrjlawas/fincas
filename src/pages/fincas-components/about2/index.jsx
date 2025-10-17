@@ -10,7 +10,7 @@ const About = () => {
     <section id="about" className="vl-about-section sp2">
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={8}>
             <div className="vl-about-content">
               <div className="vl-section-title-1">
                 <h5
@@ -31,9 +31,13 @@ const About = () => {
                   data-aos-duration={800}
                   data-aos-delay={300}
                 >
-                  Led by Steven Cox, FINCAS leverages global procurement and
-                  supply chain expertise to deliver sustainable solutions,
-                  strong partnerships, and measurable results.
+                  Led by Steven Cox, and supported by a range of globally
+                  experienced SME's and analysts across all business functions,
+                  FINCAS has the expertise to deliver sustainable solutions,
+                  strong partnerships, and measurable results across all levels
+                  of your business. FINCAS will create a dynamic and
+                  cost-effective team to deliver any size project or support
+                  services your business requires.
                 </p>
               </div>
               <div className="vl-about-grid">
@@ -79,7 +83,7 @@ const About = () => {
               <img className="w-100" src={about1} alt="about1" />
             </div>
           </Col>
-          <Col lg={2} md={6} className="mb-30">
+          {/* <Col lg={2} md={6} className="mb-30">
             <div
               className="vl-about-sm-content"
               data-aos="zoom-in-up"
@@ -91,19 +95,19 @@ const About = () => {
                 international standards ensuring transparency, professionalism,
                 regulatory compliance, and global credibility.
               </p>
-              {/* <div className="btn-area">
+              <div className="btn-area">
                 <Link to="/pages/team" className="header-btn1">
                   Volunteer{" "}
                   <span>
                     <FaArrowRight />
                   </span>
                 </Link>
-              </div> */}
-              {/* <div className="vl-about-sm-thumb d-none d-md-block">
+              </div>
+              <div className="vl-about-sm-thumb d-none d-md-block">
                 <img className="w-100" src={about2} alt="about2" />
-              </div> */}
+              </div>
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </section>

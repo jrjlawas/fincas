@@ -1,35 +1,77 @@
-import aboutThum1 from "@/assets/img/Fincas/services/aboutProcurement1.svg";
-import aboutThum2 from "@/assets/img/Fincas/services/aboutProcurement2.svg";
-import aboutThum3 from "@/assets/img/Fincas/services/aboutProcurement3.svg";
-
-import missionThumbImg from "@/assets/img/Fincas/services/aboutProcurement4.svg";
-import vision2 from "@/assets/img/about/vl-vission2.png";
-import thumb5 from "@/assets/img/work/vl-work-thumb-5.1.png";
-import { FaCheck } from "react-icons/fa6";
-import {
-  Col,
-  Container,
-  Row,
-  Nav,
-  NavItem,
-  NavLink,
-  TabContainer,
-  TabContent,
-  TabPane,
-} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 const ServiceProcurementAbout = () => {
   return (
     <>
-      <section className="vl-about5 sp2">
+      <div className="vl-sidebar-area sp2">
+        <Container>
+          <Row>
+            <Col lg={12} className="mx-auto">
+              <div className="event-content-area">
+                <h2 className="title pt-5">
+                  Procurement and Business Strategy
+                </h2>
+                <br></br>
+                <p
+                  className="para"
+                  style={{
+                    fontSize: "1.5rem",
+                    lineHeight: "1.8",
+                    textAlign: "justify",
+                  }}
+                >
+                  The development of short or long-term Procurement or Business
+                  Strategies to align with your organization's overall business
+                  goals with a focus on optimizing costs, mitigating risks and
+                  driving innovation. In the Procurement space this involves
+                  developing the annual goals looking at Operational Excellence,
+                  Organization Effectiveness and Sustainability followed by
+                  Spend Map analysis, Category Strategy Development, Strategic
+                  Sourcing Roadmaps (short or long term), Contract Management
+                  and Supplier Relationship Management, Inventory Management,
+                  Warehouse Optimisation, Logistics solutions, KPI development,
+                  both Transactional and Contractual. These can be done as full
+                  strategy development or targeted to each individual area based
+                  on your department or business needs.
+                </p>
+                {/* <p className="para">
+                  Systems Implementation projects. I've been involved in 4 SAP
+                  implementation projects from SteerCo to SME Lead. If you need
+                  support, an SME, an independent evaluator to select your most
+                  optimal ERP system, or independent SteerCo representative I'm
+                  happy to assist.
+                </p> */}
+                <br></br>
+                <h2 className="title"></h2>
+                <p
+                  className="para"
+                  style={{
+                    fontSize: "1.5rem",
+                    lineHeight: "1.8",
+                    textAlign: "justify",
+                  }}
+                >
+                  Systems Implementation projects. I've been involved in 4 SAP
+                  implementation projects from SteerCo to SME Lead. If you need
+                  support, an SME, an independent evaluator to select your most
+                  optimal ERP system, or independent SteerCo representative I'm
+                  happy to assist.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      ;
+      {/* <section className="vl-about5 sp2">
         <Container>
           <Row>
             <Col lg={6}>
               <div className="vl-about-content">
                 <div className="vl-section-title-1 mb-50">
-                  {/* <h5 className="subtitle">
+                  <h5 className="subtitle">
                   Driving Efficiency, Innovation, and Strategic Growth
-                </h5> */}
+                </h5>
                   <h2 className="title">
                     Driving Efficiency, Innovation, and Strategic Growth
                   </h2>
@@ -136,9 +178,6 @@ const ServiceProcurementAbout = () => {
                     efforts are fueled by the support.
                   </p>
                 </div>
-                {/* <div className="vl-work-thumb reveal">
-                  <img className="w-100" src={thumb5} alt="thumb5" />
-                </div> */}
               </div>
               <Col
                 lg={12}
@@ -301,7 +340,6 @@ const ServiceProcurementAbout = () => {
           </Row>
         </Container>
       </section>
-
       <section className="vl-about-mission-bg sp2">
         <Container>
           <Row>
@@ -345,7 +383,7 @@ const ServiceProcurementAbout = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
     </>
   );
 };

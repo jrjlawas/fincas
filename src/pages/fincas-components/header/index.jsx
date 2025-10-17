@@ -75,9 +75,21 @@ const Header = () => {
                               Procurement & Business Strategy
                             </Link>
                           </li>
-                          {/* <li>
-                            <Link to="/">Negotiation Strategy & Training</Link>
-                          </li> */}
+                          <li>
+                            <Link to="/services/negotiation-strategy-and-training">
+                              Negotiation Strategy & Training
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/services/contractor-management-solution">
+                              Contractor Management Solution
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/services/interim-leadership-services">
+                              Interim Leadership Services
+                            </Link>
+                          </li>
                         </ul>
                       </li>
                       <li>
@@ -166,6 +178,22 @@ const Header = () => {
                 Procurement & Business Strategy
               </a>
             </li>
+            <li>
+              <a href="/services/negotiation-strategy-and-training">
+                Negotiation Strategy & Training
+              </a>
+            </li>
+            <li>
+              <a href="/services/contractor-management-solution">
+                Contractor Management Solution
+              </a>
+            </li>
+            <li>
+              <a href="/services/interim-leadership-services">
+                Interim Leadership Services
+              </a>
+            </li>
+
             <li>
               <a href="/articles">Articles</a>
             </li>

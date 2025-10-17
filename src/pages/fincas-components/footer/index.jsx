@@ -46,14 +46,14 @@ const Footer = () => {
               <div className="vl-footer-menu">
                 <ul>
                   <li>
-                    <Link to="/">Talk to Us</Link>
+                    <Link to="/contact">Talk to Us</Link>
                   </li>
                   <li>
-                    <Link to="/">Articles</Link>
+                    <Link to="/articles">Articles</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/contact">Contact Us</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -69,13 +69,19 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#">Negotiation Strategy & Training</a>
+                    <a href="/services/negotiation-strategy-and-training">
+                      Negotiation Strategy & Training
+                    </a>
                   </li>
                   <li>
-                    <Link to="#">Contractor Management Solution</Link>
+                    <Link to="/services/contractor-management-solution">
+                      Contractor Management Solution
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Interim Leadership Services</a>
+                    <a href="/services/interim-leadership-services">
+                      Interim Leadership Services
+                    </a>
                   </li>
                   <li>
                     <a href="#">Organizational Design Development</a>
@@ -125,9 +131,20 @@ const Footer = () => {
                   </span>
                 </div>
                 <div className="vl-footer-text">
+                  <a href="#">Newport, Victoria, Australia</a>
+                </div>
+              </div>
+              <div className="vl-footer-icon-list">
+                <div className="vl-footer-icon">
+                  <span>
+                    <img src={footerIc2} alt="footerIc2" />
+                  </span>
+                </div>
+                <div className="vl-footer-text">
                   <a href="#">Greystone Park, Harare, Zimbabwe</a>
                 </div>
               </div>
+
               <div className="vl-footer-icon-list">
                 <div className="vl-footer-icon">
                   <span>
