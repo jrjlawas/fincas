@@ -5,7 +5,7 @@ export const iconsBoxData = [{
   icon: icon1,
   title: "Call Us Today",
   description: "24/7 Service",
-  contacts: ["+263787024225"]
+  contacts: ["+63 919 099 0670"]
 }, {
   icon: icon2,
   title: "Mail Information",
@@ -13,7 +13,7 @@ export const iconsBoxData = [{
   contacts: ["info@fincasmanagement.com"]
 }, {
   icon: icon3,
-  title: "Our Location",
+  title: "Our Locations",
   description: "Address",
-  contacts: ["8708 Technology Forest Pl Suite 125-G"]
+  contacts: ["139 The Esplanade, Golden Beach, Australia","Newport, Victoria, Australia","Greystone Park, Harare, Zimbabwe"]
 }];
