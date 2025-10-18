@@ -166,7 +166,6 @@ const Contact = () => {
                         onChange={handleChange}
                         value={formData.MESSAGE}
                         placeholder="How can we help you?*"
-                        defaultValue={""}
                       />
                     </Col>
                     <Col lg={12}>
