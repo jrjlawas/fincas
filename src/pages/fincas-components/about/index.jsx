@@ -55,12 +55,13 @@ const About = () => {
                   data-aos-delay={300}
                 >
                   Founded in May 2020, FINCAS Management Services Ltd is a
-                  global consulting company delivering sustainable Business,
-                  Procurement and Supply Chain solutions that drive measurable
-                  value. We specialize in serving the Corporate, Mining,
-                  Resources, Mega Construction Projects, and Oil & Gas
-                  industries, combining deep sector expertise with a hands-on,
-                  results-driven approach.
+                  global consulting company delivering sustainable Procurement
+                  and Supply Chain, Strategy, Operational and Organizational
+                  solutions that drive measurable and immediate value. We
+                  specialize in serving the Corporate, Mining, Resources,
+                  Construction, Projects, and Oil & Gas industries, combining
+                  deep sector expertise with a hands-on, results driven
+                  approach.
                 </p>
               </div>
               <Row className="">
@@ -74,11 +75,12 @@ const About = () => {
                   <div className="vl-about-icon-box mb-30">
                     <div className="vl-icon-content">
                       <h3 className="title">
-                        <Link to="#">Our Visions</Link>
+                        <Link to="#">Vision</Link>
                       </h3>
                       <p>
                         “To deliver sustainable solutions and ongoing value
-                        through strong relationships and customer respect.”
+                        through strategy, analytics, process, governance, strong
+                        relationships and customer respect.”
                       </p>
                     </div>
                   </div>

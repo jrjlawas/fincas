@@ -110,10 +110,21 @@ const Header = () => {
                               E2E Procurement & Supply Chain Training
                             </Link>
                           </li>
+                          <li>
+                            <Link to="/services/player-and-sport-management">
+                              Player & Sports Management
+                            </Link>
+                          </li>
                         </ul>
                       </li>
                       <li>
+                        <a href="/certificates">Certificates</a>
+                      </li>
+                      <li>
                         <a href="/articles">Articles</a>
+                      </li>
+                      <li>
+                        <a href="#">Podcasts</a>
                       </li>
                       <li>
                         <a href="/contact">Contact Us</a>
@@ -233,9 +244,19 @@ const Header = () => {
                 E2E Procurement & Supply Chain Training
               </a>
             </li>
-
+            <li>
+              <a href="/services/player-and-sport-management">
+                Player & Sports Management
+              </a>
+            </li>
+            <li>
+              <a href="/certificates">Certificates</a>
+            </li>
             <li>
               <a href="/articles">Articles</a>
+            </li>
+            <li>
+              <a href="#">Podcasts</a>
             </li>
             <li>
               <a href="/contact">Contact Us</a>

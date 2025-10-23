@@ -32,12 +32,13 @@ const About = () => {
                   data-aos-delay={300}
                 >
                   Led by Steven Cox, and supported by a range of globally
-                  experienced SME's and analysts across all business functions,
-                  FINCAS has the expertise to deliver sustainable solutions,
-                  strong partnerships, and measurable results across all levels
-                  of your business. FINCAS will create a dynamic and
-                  cost-effective team to deliver any size project or support
-                  services your business requires.
+                  experienced SME's and analysts across all business functions
+                  and levels, FINCAS has the expertise to deliver sustainable
+                  value solutions, strong partnerships, critical negotiations,
+                  and relevant strategies to enhance and improve your business
+                  in a cost effective and timely manner. FINCAS will create a
+                  dynamic and cost-effective team to deliver any size project
+                  your business requires.
                 </p>
               </div>
               <div className="vl-about-grid">

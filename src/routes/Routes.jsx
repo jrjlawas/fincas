@@ -25,6 +25,9 @@ const ServiceExpat = lazy(() => import("@/pages/fincas-page/serviceExpat"));
 
 const ServiceSupply = lazy(() => import("@/pages/fincas-page/serviceSupply"));
 
+const ServicePlayer = lazy(() => import("@/pages/fincas-page/servicePlayer"));
+const Certificates = lazy(() => import("@/pages/fincas-page/certificates"));
+
 const MultiPageAnimalRescue = lazy(() =>
   import("@/pages/multi-page/animal-rescue")
 );
@@ -119,6 +122,17 @@ const multiPageRoutes = [
     path: "/services/e2e-procurement-supplychain-training",
     name: "Expat",
     element: <ServiceSupply />,
+  },
+
+  {
+    path: "/services/player-and-sport-management",
+    name: "Player",
+    element: <ServicePlayer />,
+  },
+  {
+    path: "/certificates",
+    name: "Certificates",
+    element: <Certificates />,
   },
 
   {

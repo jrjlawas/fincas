@@ -1,8 +1,8 @@
 import PageMeta from "@/components/PageMeta.jsx";
 import TopBanner from "../../fincas-components/banner";
 import Header from "../../fincas-components/header";
-import ArticleHero from "../../fincas-components/articleHero";
-import Blog from "../../fincas-components/blog";
+import CertificateHero from "../../fincas-components/certificateHero";
+import CertificateLists from "../../fincas-components/certificateLists";
 import CtaArea from "../../fincas-components/cta";
 import Footer from "../../fincas-components/footer";
 import BackToTop from "@/components/BackToTop.jsx";
@@ -13,8 +13,8 @@ const Home = () => {
       <PageMeta title="FINCAS Management Services Ltd." icon={favLogo1} />
       <TopBanner />
       <Header />
-      <ArticleHero />
-      <Blog />
+      <CertificateHero />
+      <CertificateLists />
       <CtaArea />
       <Footer />
       <BackToTop />

@@ -8146,6 +8146,7 @@ section.vl-testimonial4.vl-testimonial-inner.testimonial2.sp2 .smarrow.abarow.ar
   position: relative;
   z-index: 1;
 }
+
 .vl-hero-bg {
   background-size: cover;
   background-position: center;
@@ -8158,20 +8159,35 @@ section.vl-testimonial4.vl-testimonial-inner.testimonial2.sp2 .smarrow.abarow.ar
   z-index: 1;
   overflow: hidden;
 }
-@media (max-width: 768px) {
-  .vl-hero-bg {
-    background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  // background-color: #ddd;
-  background: url('https://fincasbucket.s3.ap-southeast-2.amazonaws.com/heroPageFinal.gif') no-repeat center;
-  background-size: cover;
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  }
-}
+
+// .vl-hero-bg {
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   // background-color: #ddd;
+//   background: url('https://fincasbucket.s3.ap-southeast-2.amazonaws.com/heroPageFinal.gif') no-repeat center;
+//   background-size: cover;
+//   width: 100%;
+//   position: relative;
+//   z-index: 1;
+//   overflow: hidden;
+// }
+// @media (max-width: 768px) {
+//   .vl-hero-bg {
+//     background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   // background-color: #ddd;
+//   background: url('https://fincasbucket.s3.ap-southeast-2.amazonaws.com/heroPageFinal.gif') no-repeat center;
+//   background-size: cover;
+//   width: 100%;
+//   position: relative;
+//   z-index: 1;
+//   overflow: hidden;
+//   }
+// }
+
+
 .vl-hero-bg:after {
   position: absolute;
   content: "";
