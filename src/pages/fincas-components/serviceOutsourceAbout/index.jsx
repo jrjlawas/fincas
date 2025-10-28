@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-
+import IMG1 from "@/assets/img/Fincas/services/expatSupport.svg";
 const ServiceOutsourceAbout = () => {
   return (
     <>
@@ -30,6 +30,30 @@ const ServiceOutsourceAbout = () => {
                   like strategic sourcing, spend analysis, and vendor management
                   to external partner.
                 </p>
+
+                <div style={{ textAlign: "center", marginTop: "3rem" }}>
+                  <img
+                    src={IMG1}
+                    alt="Expat Support Services"
+                    style={{
+                      width: "100%",
+                      maxWidth: "800px",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+                    }}
+                  />
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "#555",
+                      marginTop: "1rem",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    Empowering professionals for successful international
+                    careers.
+                  </p>
+                </div>
               </div>
             </Col>
           </Row>
