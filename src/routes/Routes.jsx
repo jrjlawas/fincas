@@ -27,6 +27,10 @@ const ServiceSupply = lazy(() => import("@/pages/fincas-page/serviceSupply"));
 
 const ServicePlayer = lazy(() => import("@/pages/fincas-page/servicePlayer"));
 const Certificates = lazy(() => import("@/pages/fincas-page/certificates"));
+const Podcasts = lazy(() => import("@/pages/fincas-page/podcasts"));
+const ServiceExpatSupport = lazy(() =>
+  import("@/pages/fincas-page/serviceExpatSupport")
+);
 
 const MultiPageAnimalRescue = lazy(() =>
   import("@/pages/multi-page/animal-rescue")
@@ -133,6 +137,16 @@ const multiPageRoutes = [
     path: "/certificates",
     name: "Certificates",
     element: <Certificates />,
+  },
+  {
+    path: "/podcasts",
+    name: "Podcasts",
+    element: <Podcasts />,
+  },
+  {
+    path: "/services/expat-support-services",
+    name: "ServiceExpatSupport",
+    element: <ServiceExpatSupport />,
   },
 
   {

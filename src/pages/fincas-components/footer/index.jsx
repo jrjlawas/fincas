@@ -52,7 +52,7 @@ const Footer = () => {
                     <Link to="/contact">Talk to Us</Link>
                   </li>
                   <li>
-                    <Link to="#">Podcasts</Link>
+                    <Link to="/podcasts">Podcasts</Link>
                   </li>
                   <li>
                     <Link to="/articles">Articles</Link>
@@ -112,6 +112,11 @@ const Footer = () => {
                   <li>
                     <a href="/services/player-and-sport-management">
                       Player & Sports Management
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/services/expat-support-services">
+                      Expat Support Services
                     </a>
                   </li>
                 </ul>
@@ -179,12 +184,21 @@ const Footer = () => {
         </Row>
         <div className="vl-copyright copyright-border-1">
           <Row>
-            <Col md={6}>
+            {/* <Col md={6}>
               <p className="vl-copyright-text">
                 © 2025 IronPeak Technologies. All Rights Reserved.
               </p>
-            </Col>
+            </Col> */}
             <Col md={6}>
+              <p className="vl-copyright-text">
+                © 2025 <span style={{ color: "#0a3d62" }}>IronPeak</span>{" "}
+                <span style={{ color: "#0a3d62" }}>Technologies</span>. All
+                Rights Reserved.
+                {/* © 2025 Glotti Business Solutions. All Rights Reserved. */}
+              </p>
+            </Col>
+
+            {/* <Col md={6}>
               <div className="vl-copyright-menu">
                 <ul>
                   <li>
@@ -195,7 +209,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </div>
       </Container>

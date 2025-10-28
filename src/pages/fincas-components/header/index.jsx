@@ -115,6 +115,11 @@ const Header = () => {
                               Player & Sports Management
                             </Link>
                           </li>
+                          <li>
+                            <Link to="/services/expat-support-services">
+                              Expat Support Services
+                            </Link>
+                          </li>
                         </ul>
                       </li>
                       <li>
@@ -124,7 +129,7 @@ const Header = () => {
                         <a href="/articles">Articles</a>
                       </li>
                       <li>
-                        <a href="#">Podcasts</a>
+                        <a href="/podcasts">Podcasts</a>
                       </li>
                       <li>
                         <a href="/contact">Contact Us</a>
@@ -250,13 +255,18 @@ const Header = () => {
               </a>
             </li>
             <li>
+              <a href="/services/expat-support-services">
+                Expat Support Services
+              </a>
+            </li>
+            <li>
               <a href="/certificates">Certificates</a>
             </li>
             <li>
               <a href="/articles">Articles</a>
             </li>
             <li>
-              <a href="#">Podcasts</a>
+              <a href="/podcasts">Podcasts</a>
             </li>
             <li>
               <a href="/contact">Contact Us</a>
