@@ -4,6 +4,7 @@ import Header from "../../fincas-components/header";
 import Hero from "../../fincas-components/hero";
 import About from "../../fincas-components/about";
 import About2 from "../../fincas-components/about2";
+import Testimonial from "../../fincas-components/testimonials";
 import Contact from "../../fincas-components/contact";
 import CtaArea from "../../fincas-components/cta";
 import Footer from "../../fincas-components/footer";
@@ -18,6 +19,7 @@ const Home = () => {
       <Hero />
       <About />
       <About2 />
+      <Testimonial />
       <Contact />
       <CtaArea />
       <Footer />

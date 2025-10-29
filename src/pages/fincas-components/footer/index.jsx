@@ -52,7 +52,21 @@ const Footer = () => {
                     <Link to="/contact">Talk to Us</Link>
                   </li>
                   <li>
-                    <Link to="/podcasts">Podcasts</Link>
+                    <Link to="/podcasts">
+                      Podcasts
+                      <span
+                        style={{
+                          backgroundColor: "#EF3F4C",
+                          color: "white",
+                          fontSize: "0.7rem",
+                          padding: "2px 6px",
+                          borderRadius: "8px",
+                          marginLeft: "8px",
+                        }}
+                      >
+                        Coming Soon!
+                      </span>
+                    </Link>
                   </li>
                   <li>
                     <Link to="/articles">Articles</Link>

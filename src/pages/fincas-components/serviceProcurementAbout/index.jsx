@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
-
+import IMG1 from "@/assets/img/Fincas/services/procuBusiness.svg";
+import IMG2 from "@/assets/img/Fincas/services/procuStrat.svg";
 const ServiceProcurementAbout = () => {
   return (
     <>
@@ -8,6 +9,29 @@ const ServiceProcurementAbout = () => {
           <Row>
             <Col lg={12} className="mx-auto">
               <div className="event-content-area">
+                <div style={{ textAlign: "center", marginTop: "3rem" }}>
+                  <img
+                    src={IMG1}
+                    alt="Expat Support Services"
+                    style={{
+                      width: "100%",
+                      maxWidth: "800px",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+                    }}
+                  />
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "#555",
+                      marginTop: "1rem",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    How to Develop Your Business Strategy
+                  </p>
+                </div>
+                <br></br>
                 <h2 className="title pt-5">
                   Procurement and Business Strategy
                 </h2>
@@ -34,13 +58,29 @@ const ServiceProcurementAbout = () => {
                   strategy development or targeted to each individual area based
                   on your department or business needs.
                 </p>
-                {/* <p className="para">
-                  Systems Implementation projects. I've been involved in 4 SAP
-                  implementation projects from SteerCo to SME Lead. If you need
-                  support, an SME, an independent evaluator to select your most
-                  optimal ERP system, or independent SteerCo representative I'm
-                  happy to assist.
-                </p> */}
+                <br></br>
+                <div style={{ textAlign: "center", marginTop: "3rem" }}>
+                  <img
+                    src={IMG2}
+                    alt="Expat Support Services"
+                    style={{
+                      width: "100%",
+                      maxWidth: "800px",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+                    }}
+                  />
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "#555",
+                      marginTop: "1rem",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    Procurement Strategy Development
+                  </p>
+                </div>
                 <br></br>
                 <h2 className="title"></h2>
                 <p
