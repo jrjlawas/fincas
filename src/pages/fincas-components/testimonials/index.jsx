@@ -128,10 +128,12 @@ const Testimonial = () => {
           >
             Testimonial
           </h5>
-          <h2 className="title text-anime-style-3">Stories from the Heart</h2>
+          <h2 className="title text-anime-style-3">
+            Client Experiences That Speak for Themselves
+          </h2>
           <p data-aos="fade-up" data-aos-duration={800} data-aos-delay={300}>
-            Long-term recovery requires sustainable livelihoods.
-            <br /> We support individuals &amp; families in rebuilding.
+            Real stories of success from organizations we’ve partnered with in
+            achieving operational excellence and strategic growth.
           </p>
         </div>
         <Row>
