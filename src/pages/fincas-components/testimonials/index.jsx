@@ -140,10 +140,10 @@ const Testimonial = () => {
           <div className="vl-testimonial-arow p-relative">
             <Swiper
               modules={[Autoplay, Navigation]}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
+              // autoplay={{
+              //   delay: 2500,
+              //   disableOnInteraction: true,
+              // }}
               slidesPerView={3}
               navigation={{
                 nextEl: ".swiper-button-next",

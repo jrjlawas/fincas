@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
+import IMG1 from "@/assets/img/Fincas/services/aboutPlayer.svg";
 
 const ServicePlayerAbout = () => {
   return (
@@ -27,6 +28,30 @@ const ServicePlayerAbout = () => {
                   doing whatever it takes to secure you the very best partners
                   to ensure you reach your full potential and ultimate success.
                 </p>
+                <br></br>
+                <div style={{ textAlign: "center", marginTop: "3rem" }}>
+                  <img
+                    src={IMG1}
+                    alt="Expat Support Services"
+                    style={{
+                      width: "100%",
+                      maxWidth: "800px",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+                    }}
+                  />
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "#555",
+                      marginTop: "1rem",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    “From passion to performance, FINCAS builds the bridge
+                    between talent and triumph.”
+                  </p>
+                </div>
               </div>
             </Col>
           </Row>

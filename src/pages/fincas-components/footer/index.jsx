@@ -183,7 +183,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="vl-footer-icon-list">
+              <div className="vl-footer-icon-list" hidden>
                 <div className="vl-footer-icon">
                   <span>
                     <img src={footerIc3} alt="footerIc3" />

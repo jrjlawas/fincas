@@ -16,7 +16,7 @@ const ContactPage = () => {
       <Header />
       <Hero />
       <Contact />
-      <IconArea />
+      {/* <IconArea /> */}
       <CtaArea />
       <Footer />
       <BackToTop />

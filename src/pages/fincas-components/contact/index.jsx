@@ -106,7 +106,7 @@ const Contact = () => {
           <Col lg={3} className="mb-30">
             <div className="vl-maps">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15200.14503840576!2d31.11438125!3d-17.742930599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931b05b560a678b%3A0xf7f36d2c94f7cd3a!2sGreystone%20Park%2C%20Harare%2C%20Zimbabwe!5e0!3m2!1sen!2sph!4v1758776628926!5m2!1sen!2sph"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8783.859591216811!2d144.87595358449548!3d-37.84309496760816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66770228a334b%3A0x5045675218ce890!2sNewport%20VIC%203015%2C%20Australia!5e0!3m2!1sen!2sph!4v1762479051008!5m2!1sen!2sph"
                 allowFullScreen
                 className="vl-contact-maps"
               />

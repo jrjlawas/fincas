@@ -28,7 +28,7 @@ const TopBanner = () => {
                   </a>
                 </div>
               </div>
-              <div className="vl-header-top-icbox">
+              <div className="vl-header-top-icbox" hidden>
                 <div className="top-icon">
                   <span>
                     <img src={topImg2} alt="topImg2" />
