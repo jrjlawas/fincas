@@ -36,7 +36,7 @@ const About = () => {
                   }}
                 >
                   Led by Steven Cox, and supported by a range of globally
-                  experienced SME's and Aanalysts across all business functions
+                  experienced SME's and Analysts across all business functions
                   and levels to successfully deliver your needs.
                   <br />
                   Steven has 20 years' experience in Corporate Mining, Minerals,
