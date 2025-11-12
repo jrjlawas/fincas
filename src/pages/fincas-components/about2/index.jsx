@@ -30,24 +30,48 @@ const About = () => {
                   data-aos="fade-right"
                   data-aos-duration={800}
                   data-aos-delay={300}
+                  style={{
+                    lineHeight: "1.8",
+                    textAlign: "justify",
+                  }}
                 >
                   Led by Steven Cox, and supported by a range of globally
-                  experienced SME's and analysts across all business functions
-                  and levels, FINCAS has the expertise to deliver sustainable
-                  value solutions, strong partnerships, critical negotiations,
-                  and relevant strategies to enhance and improve your business
-                  in a cost effective and timely manner. FINCAS will create a
-                  dynamic and cost-effective team to deliver any size project
-                  your business requires.
+                  experienced SME's and Aanalysts across all business functions
+                  and levels to successfully deliver your needs.
+                  <br />
+                  Steven has 20 years' experience in Corporate Mining, Minerals,
+                  Extraction, Manufacturing and Mega Mining and Construction
+                  Projects across 9 different countries in senior Commercial,
+                  Procurement, Finance and Supply Chain roles. Steven offers a
+                  vision-driven approach to decision making, leadership,
+                  strategic planning, transformation, and tactical
+                  implementation that has driven significant value for some of
+                  the world's largest companies. His career history demonstrates
+                  deep cultural experience and knowledge, outstanding
+                  communication and leadership skills as well as a reputation
+                  for being organized, dependable, building respected teams and
+                  successful delivery. His leadership record across commercial,
+                  business strategy, strategic procurement and supply chain
+                  management has resulted in substantial value uplift,
+                  innovation and sustainability to companies like Rio Tinto,
+                  Ambatovy, Newcrest Mining, Glencore, Kaz Minerals, and Phillip
+                  Morris International.
+                  <br />
+                  FINCAS has the expertise to deliver sustainable value
+                  solutions, strong partnerships, critical negotiations, and
+                  business strategies to enhance and improve your business in a
+                  cost effective and timely manner. FINCAS will create a dynamic
+                  and cost-effective team to deliver any size project to meet
+                  your business requirements.
                 </p>
               </div>
-              <div className="vl-about-grid">
+              {/* <div className="vl-about-grid">
                 <div className="vl-about-icon-box mb-30">
-                  {/* <div className="vl-about-icon">
+                  <div className="vl-about-icon">
                     <span>
                       <img src={aboutIcons1} alt="about1" />
                     </span>
-                  </div> */}
+                  </div>
                   <div className="vl-icon-content">
                     <h3 className="title">
                       <Link to="#">Strategic Direction</Link>
@@ -60,11 +84,11 @@ const About = () => {
                   </div>
                 </div>
                 <div className="vl-about-icon-box mb-30">
-                  {/* <div className="vl-about-icon">
+                  <div className="vl-about-icon">
                     <span>
                       <img src={aboutIcons2} alt="about2" />
                     </span>
-                  </div> */}
+                  </div>
                   <div className="vl-icon-content">
                     <h3 className="title">
                       <Link to="#">Client-Centered Excellence</Link>
@@ -76,7 +100,7 @@ const About = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </Col>
           <Col lg={4} md={6} className="mb-30">
