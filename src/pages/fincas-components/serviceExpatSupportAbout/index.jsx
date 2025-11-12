@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
-import IMG1 from "@/assets/img/Fincas/services/expatSupport.svg";
+import IMG1 from "@/assets/img/Fincas/services/aboutXpatSuport.svg";
+
 const ServiceExpatSupportAbout = () => {
   return (
     <>
@@ -26,6 +27,31 @@ const ServiceExpatSupportAbout = () => {
                   and supported by FINCAS following an initial conversation on
                   your potential, existing or preferred international scenario.
                 </p>
+                <br></br>
+                <div style={{ textAlign: "center", marginTop: "3rem" }}>
+                  <img
+                    src={IMG1}
+                    alt="Expat Support Services"
+                    style={{
+                      width: "100%",
+                      maxWidth: "800px",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+                    }}
+                  />
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "#555",
+                      marginTop: "1rem",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    “With FINCAS, expatriate success extends beyond the
+                    workplace—covering relocation, family adjustment, and
+                    long-term well-being.”
+                  </p>
+                </div>
                 <br></br>
                 <h2 className="title"></h2>
                 <p

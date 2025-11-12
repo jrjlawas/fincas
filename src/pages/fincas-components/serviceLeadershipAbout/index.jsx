@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-
+import IMG1 from "@/assets/img/Fincas/services/aboutLeadership.svg";
 const ServiceLeadershipAbout = () => {
   return (
     <>
@@ -25,6 +25,31 @@ const ServiceLeadershipAbout = () => {
                   and ensure your business continues to deliver the business
                   goals during times of significant change.
                 </p>
+                <br></br>
+                <div style={{ textAlign: "center", marginTop: "3rem" }}>
+                  <img
+                    src={IMG1}
+                    alt="Expat Support Services"
+                    style={{
+                      width: "100%",
+                      maxWidth: "800px",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+                    }}
+                  />
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "#555",
+                      marginTop: "1rem",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    “FINCAS delivers expert interim leadership to guide
+                    transformation, strengthen operations, and sustain
+                    organizational momentum.”
+                  </p>
+                </div>
                 <br></br>
                 <h2 className="title"></h2>
                 <p

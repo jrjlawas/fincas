@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-
+import IMG1 from "@/assets/img/Fincas/services/aboutContractor.svg";
 const ServiceContractorAbout = () => {
   return (
     <>
@@ -30,6 +30,31 @@ const ServiceContractorAbout = () => {
                   reduce risks, increase efficiency, maintain quality, and
                   promote successful project outcomes.
                 </p>
+                <br></br>
+                <div style={{ textAlign: "center", marginTop: "3rem" }}>
+                  <img
+                    src={IMG1}
+                    alt="Expat Support Services"
+                    style={{
+                      width: "100%",
+                      maxWidth: "800px",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+                    }}
+                  />
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "#555",
+                      marginTop: "1rem",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    “FINCAS ensures your contractor workforce operates with
+                    efficiency, compliance, and accountability—driving
+                    consistency across every project.”
+                  </p>
+                </div>
                 <br></br>
                 <h2 className="title"></h2>
                 <p

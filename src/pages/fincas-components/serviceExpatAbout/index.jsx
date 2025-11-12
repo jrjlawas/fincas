@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-
+import IMG1 from "@/assets/img/Fincas/services/aboutTargetedExpat.svg";
 const ServiceExpatAbout = () => {
   return (
     <>
@@ -26,6 +26,31 @@ const ServiceExpatAbout = () => {
                   to reach out. Cost effective and efficient way of recruiting
                   high level talent to suit your business needs.
                 </p>
+                <br></br>
+                <div style={{ textAlign: "center", marginTop: "3rem" }}>
+                  <img
+                    src={IMG1}
+                    alt="Expat Support Services"
+                    style={{
+                      width: "100%",
+                      maxWidth: "800px",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+                    }}
+                  />
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "#555",
+                      marginTop: "1rem",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    “FINCAS connects world-class professionals with
+                    international opportunities, ensuring every placement aligns
+                    with both talent potential and organizational goals.”
+                  </p>
+                </div>
               </div>
             </Col>
           </Row>

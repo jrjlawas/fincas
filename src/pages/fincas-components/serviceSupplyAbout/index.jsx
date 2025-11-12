@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-
+import IMG1 from "@/assets/img/Fincas/services/aboutE2E.svg";
 const ServiceSupplyAbout = () => {
   return (
     <>
@@ -34,6 +34,31 @@ const ServiceSupplyAbout = () => {
                   interdependencies and linked documents from other areas,
                   departments or procurement processes.
                 </p>
+                <br></br>
+                <div style={{ textAlign: "center", marginTop: "3rem" }}>
+                  <img
+                    src={IMG1}
+                    alt="Expat Support Services"
+                    style={{
+                      width: "100%",
+                      maxWidth: "800px",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+                    }}
+                  />
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "#555",
+                      marginTop: "1rem",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    “From sourcing to delivery, FINCAS empowers your teams with
+                    the tools, knowledge, and confidence to transform
+                    procurement performance.”
+                  </p>
+                </div>
                 <br></br>
                 <p
                   className="para"

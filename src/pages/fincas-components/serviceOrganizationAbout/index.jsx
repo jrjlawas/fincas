@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
+import IMG1 from "@/assets/img/Fincas/services/aboutOrg.svg";
 
 const ServiceOrganizationAbout = () => {
   return (
@@ -29,10 +30,34 @@ const ServiceOrganizationAbout = () => {
                   led, hub and spoke, centralized, decentralized, enterprise,
                   matrix, divisional, and other varieties to support your
                   specific business needs.
-                  <br />
-                  The following considerations are critical:
                 </p>
                 <br></br>
+                <div style={{ textAlign: "center", marginTop: "3rem" }}>
+                  <img
+                    src={IMG1}
+                    alt="Expat Support Services"
+                    style={{
+                      width: "100%",
+                      maxWidth: "800px",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+                    }}
+                  />
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      color: "#555",
+                      marginTop: "1rem",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    “At FINCAS, we bridge people and purpose—developing
+                    organizational frameworks that empower teams and drive
+                    measurable results.”
+                  </p>
+                </div>
+                <br></br>
+
                 <h2 className="title"></h2>
                 <p
                   className="para"
@@ -41,7 +66,9 @@ const ServiceOrganizationAbout = () => {
                     lineHeight: "1.8",
                     textAlign: "justify",
                   }}
-                ></p>
+                >
+                  The following considerations are critical:
+                </p>
                 <ol
                   style={{
                     fontSize: "1.4rem",
