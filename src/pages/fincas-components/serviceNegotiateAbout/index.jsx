@@ -53,8 +53,9 @@ const ServiceNegotiateAbout = () => {
                       fontStyle: "italic",
                     }}
                   >
-                    “From passion to performance, FINCAS builds the bridge
-                    between talent and triumph.”
+                    “Through FINCAS Negotiation Strategy and Training, we
+                    prepare you to turn challenges into strategic
+                    opportunities.”
                   </p>
                 </div>
                 <br></br>

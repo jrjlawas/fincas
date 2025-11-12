@@ -14,7 +14,7 @@ const ServiceContractorHero = () => {
         <Row>
           <Col lg={12}>
             <div className="vl-breadcrumb-title">
-              <h2 className="heading">Contractor Management Solution</h2>
+              <h2 className="heading">Contractor Management Solutions</h2>
               <div className="vl-breadcrumb-list">
                 <span>
                   <Link to="/">Home</Link>

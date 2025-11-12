@@ -8,7 +8,7 @@ const ServiceContractorAbout = () => {
           <Row>
             <Col lg={12} className="mx-auto">
               <div className="event-content-area">
-                <h2 className="title pt-5">Contractor Management Solution</h2>
+                <h2 className="title pt-5">Contractor Management Solutions</h2>
                 <br></br>
                 <p
                   className="para"

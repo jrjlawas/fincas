@@ -82,7 +82,7 @@ const Header = () => {
                           </li>
                           <li>
                             <Link to="/services/contractor-management-solution">
-                              Contractor Management Solution
+                              Contractor Management Solutions
                             </Link>
                           </li>
                           <li>
@@ -221,7 +221,7 @@ const Header = () => {
             </li>
             <li>
               <a href="/services/contractor-management-solution">
-                Contractor Management Solution
+                Contractor Management Solutions
               </a>
             </li>
             <li>
